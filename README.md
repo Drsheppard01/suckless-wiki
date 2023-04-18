@@ -33,15 +33,15 @@
 
 ## Other tools
 
-[bmake](https://www.crufty.net/help/sjg/bmake.html)
-[byacc](https://invisible-island.net/byacc/)
-[mksh](https://github.com/MirBSD/mksh)
-[netbsd-curses](https://github.com/sabotage-linux/netbsd-curses)
-[om4](https://github.com/iglunix/om4) Portable OpenBSD m4.
-[OpenDoas](https://github.com/Duncaen/OpenDoas)
-[OpenPAM](https://git.des.dev/OpenPAM/OpenPAM)
-[oslo](https://github.com/iglunix/oslo)
-[pkgconf](https://github.com/pkgconf/pkgconf)
-[samurai](https://github.com/michaelforney/samurai)
-[u-config](https://github.com/skeeto/u-config)
-[zlib-ng](https://github.com/zlib-ng/zlib-ng)
+- [bmake](https://www.crufty.net/help/sjg/bmake.html)
+- [byacc](https://invisible-island.net/byacc/)
+- [mksh](https://github.com/MirBSD/mksh)
+- [netbsd-curses](https://github.com/sabotage-linux/netbsd-curses)
+- [om4](https://github.com/iglunix/om4) Portable OpenBSD m4.
+- [OpenDoas](https://github.com/Duncaen/OpenDoas)
+- [OpenPAM](https://git.des.dev/OpenPAM/OpenPAM)
+- [oslo](https://github.com/iglunix/oslo)
+- [pkgconf](https://github.com/pkgconf/pkgconf)
+- [samurai](https://github.com/michaelforney/samurai)
+- [u-config](https://github.com/skeeto/u-config)
+- [zlib-ng](https://github.com/zlib-ng/zlib-ng)
