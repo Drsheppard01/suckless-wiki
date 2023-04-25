@@ -13,14 +13,14 @@
 ## Window managers for X11
 
 1. [DWM](https://dwm.suckless.org/)
+2. [sowm](https://github.com/dylanaraps/sowm)
 
 ## Wayland compositors
 
 1. [dwl](https://github.com/djpohly/dwl)
 2. [kiwmi](https://github.com/buffet/kiwmi)
 3. [labwc](https://github.com/labwc/labwc)
-4. [swaywm](https://github.com/swaywm/sway)
-5. [taiwins](https://github.com/taiwins/taiwins)
+4. [taiwins](https://github.com/taiwins/taiwins)
 6. [waybox](https://github.com/wizbright/waybox)
 
 
