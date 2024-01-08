@@ -29,12 +29,14 @@
 1. [Busybox](https://www.busybox.net/)
 2. [Chimerautils](https://github.com/chimera-linux/chimerautils)
 3. [plan9port](https://github.com/9fans/plan9port)
-4. [Toybox](https://github.com/landley/toybox)
+4. [sbase](https://github.com/michaelforney/sbase)
+5. [Toybox](https://github.com/landley/toybox)
 
 ## Other tools
 
 * [bmake](https://www.crufty.net/help/sjg/bmake.html)
 * [byacc](https://invisible-island.net/byacc/)
+* [cproc](https://sr.ht/~mcf/cproc/)
 * [mksh](https://github.com/MirBSD/mksh)
 * [netbsd-curses](https://github.com/sabotage-linux/netbsd-curses)
 * [om4](https://github.com/iglunix/om4) Portable OpenBSD m4.
@@ -42,6 +44,8 @@
 * [OpenPAM](https://git.des.dev/OpenPAM/OpenPAM)
 * [oslo](https://github.com/iglunix/oslo)
 * [pkgconf](https://github.com/pkgconf/pkgconf)
+* [qbe](https://c9x.me/git/qbe.git)
 - [samurai](https://github.com/michaelforney/samurai)
+- [swc](https://github.com/michaelforney/swc)
 - [u-config](https://github.com/skeeto/u-config)
 - [zlib-ng](https://github.com/zlib-ng/zlib-ng)
