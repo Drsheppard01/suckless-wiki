@@ -28,65 +28,36 @@
 8. [tohu](https://git.sr.ht/~shrub900/tohu) - floating
 9. [wsxwm](https://git.sr.ht/~uint/wsxwm) - tiling
 
-
-## Userland
-
-1. [Busybox](https://www.busybox.net/)
-2. [Chimerautils](https://github.com/chimera-linux/chimerautils)
-3. [plan9port](https://github.com/9fans/plan9port)
-4. [sbase](https://github.com/michaelforney/sbase)
-5. [Toybox](https://github.com/landley/toybox)
-
 ## Other tools
 
-* [bmake](https://www.crufty.net/help/sjg/bmake.html)
-* [byacc](https://invisible-island.net/byacc/)
-* [cproc](https://sr.ht/~mcf/cproc/)
-* [mksh](https://github.com/MirBSD/mksh)
-* [netbsd-curses](https://github.com/sabotage-linux/netbsd-curses)
-* [om4](https://github.com/iglunix/om4) Portable OpenBSD m4.
-* [OpenDoas](https://github.com/Duncaen/OpenDoas)
-* [OpenPAM](https://git.des.dev/OpenPAM/OpenPAM)
-* [oslo](https://github.com/iglunix/oslo)
-* [pkgconf](https://github.com/pkgconf/pkgconf)
-* [qbe](https://c9x.me/git/qbe.git)
-- [samurai](https://github.com/michaelforney/samurai)
-- [swc](https://github.com/michaelforney/swc)
-- [u-config](https://github.com/skeeto/u-config)
-- [zlib-ng](https://github.com/zlib-ng/zlib-ng)
-
-- # Suckless software table
-
-| use                                                                                                 | standard tool                                                                                       | suckless tool                                                                                       |
-| --------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------- |
-| Standard C library                                                                                  | glibc                                                                                               | musl                                                                                                |
-| Backtrace functions                                                                                 | glibc                                                                                               | libexecinfo                                                                                         |
-| C++ standard library                                                                                | libstdc++                                                                                           | libc++                                                                                              |
-| Stack unwinding                                                                                     | libgcc                                                                                              | libunwind                                                                                           |
-| Compiler builtins                                                                                   | libgcc                                                                                              | compiler-rt                                                                                         |
-| POSIX yacc                                                                                          | bison                                                                                               | byacc                                                                                               |
-| POSIX utilities                                                                                     | coreutils                                                                                           | toybox, busybox, chimerautils, lobase                                                               |
-| C++ compiler                                                                                        | gcc                                                                                                 | clang                                                                                               |
-| Compression library                                                                                 | zlib                                                                                                | zlib-ng                                                                                             |
-| POSIX Make implementation                                                                           | gmake                                                                                               | bmake, [kati](<https://github.com/google/kati>)                                                     |
-| Ninja build implementation                                                                          | ninja                                                                                               | [samurai](<https://github.com/michaelforney/samurai>)                                               |
-| POSIX M4 implementation                                                                             | GNU M4                                                                                              | OpenBSD M4                                                                                          |
-| X/Open Curses implementation                                                                        | ncurses                                                                                             | [netbsd-curses](<https://github.com/sabotage-linux/netbsd-curses>)                                  |
-| Shell                                                                                               | bash                                                                                                | mksh, [oksh](</https://github.com/ibara/oksh> "oksh")                                               |
-| Pluggable Authentication Modules                                                                    | Linux PAM                                                                                           | Open PAM                                                                                            |
-| Privilege escalation                                                                                | sudo                                                                                                | doas                                                                                                |
-| Package configuration tool                                                                          | pkg-config                                                                                          | pkgconf                                                                                             |
-| Make an ext4 file system                                                                            | e2fsprogs                                                                                           | make\_ext4fs                                                                                        |
-| Manual                                                                                              | man-db                                                                                              | mandoc                                                                                              |
-| Job Scheduling                                                                                      | Cron                                                                                                | [Snooze ](<https://github.com/leahneukirchen/snooze>)[dcron](<https://github.com/ptchinster/dcron>) |
-| Device handling, firmware loading                                                                   | systemd-udev, udevd                                                                                 | mdevd, [libudev-zero](<https://github.com/illiliti/libudev-zero>)                                   |
-| Generic shared library support script                                                               | libtool                                                                                             | [slibtool](<https://github.com/midipix-project/slibtool>)                                           |
-| A tool for generating text-scanning programs                                                        | lex                                                                                                 | [flex](<https://github.com/westes/flex>)                                                            |
-| Build system                                                                                        | Meson                                                                                               | [Muon](<https://muon.build/>)                                                                       |
-| initrd builder                                                                                      | dracut                                                                                              | [booster](<https://github.com/anatol/booster>)                                                      |
-| bootloader                                                                                          | GRUB                                                                                                | [limine ](<https://limine-bootloader.org/>)[yaub](<https://github.com/kukrimate/yaub/>)             |
-| awk implementation                                                                                  | gawk                                                                                                | [mawk](<https://invisible-island.net/mawk/>),
-
-[one true awk ](<https://github.com/onetrueawk/awk>) |
-| Loginng system                                                                                      |                                                                                                     | [sysklogd](<https://github.com/troglobit/sysklogd>)                                                 |
-|                                                                                                     |                                                                                                     | [gettext-tiny](<https://github.com/sabotage-linux/gettext-tiny>)                                    |
+| Function | Often use realization | Suckless realization | 
+| --- | --- | --- |
+| Standard C library | glibc | musl | 
+| Backtrace functions | glibc | libexecinfo | 
+| C++ standard library | libstdc++ | libc++ | 
+| Stack unwinding | libgcc | libunwind | 
+| Compiler builtins | libgcc | compiler-rt | 
+| POSIX yacc | bison | [byacc](https://invisible-island.net/byacc/) | 
+| POSIX utilities | GNU coreutils | [Toybox](https://github.com/landley/toybox), [Busybox](https://www.busybox.net/),  [Chimerautils](https://github.com/chimera-linux/chimerautils), [plan9port](https://github.com/9fans/plan9port) | 
+| C/C++ compiler | gcc | clang, [qbe](https://c9x.me/compile/) | 
+| Compression library | zlib | [zlib-ng](https://github.com/zlib-ng/zlib-ng) | 
+| POSIX Make implementation | gmake | [bmake](https://www.crufty.net/help/sjg/bmake.html), [kati](https://github.com/google/kati), [shinobi](https://srcdump.net/shrub/shinobi/) | 
+| Ninja build implementation | ninja | [samurai](https://github.com/michaelforney/samurai) | 
+| M4 macroprocessor | GNU M4 | [OpenBSD M4](https://github.com/iglunix/om4) | 
+| Curses implementation | ncurses | [netbsd-curses](https://github.com/sabotage-linux/netbsd-curses) | 
+| Shell | bash | [mksh](https://github.com/MirBSD/mksh), [oksh](https://github.com/ibara/oksh), [yash]() | 
+| Pluggable Authentication Modules | Linux PAM | [OpenPAM](https://git.des.dev/OpenPAM/OpenPAM) | 
+| Privilege escalation | sudo | [OpenDoas](https://github.com/Duncaen/OpenDoas), [ssu](https://github.com/illiliti/ssu) | 
+| Package configuration tool | pkg-config | [librarian](https://codeberg.org/maandree/librarian), [pkgconf](https://github.com/pkgconf/pkgconf), [u-config](https://github.com/skeeto/u-config) | 
+| Make an ext4 file system | e2fsprogs | make\_ext4fs | 
+| Manual | man-db | [mandoc](https://mandoc.bsd.lv/) | 
+| Job Scheduling | Cron | [Snooze](https://github.com/leahneukirchen/snooze), [dcron](https://github.com/ptchinster/dcron) |
+| Device handling, firmware loading | systemd-udev, udevd | mdevd, [libudev-zero](https://github.com/illiliti/libudev-zero) | 
+| Generic shared library support script | libtool | [slibtool](https://github.com/midipix-project/slibtool) | 
+| A tool for generating text-scanning programs | lex | [flex](https://github.com/westes/flex), [reflex](https://invisible-island.net/reflex/) |
+| Build system | Meson | [Muon](https://muon.build/) | 
+| initrd builder | dracut | [booster](https://github.com/anatol/booster), [Tinyramfs](https://github.com/illiliti/tinyramfs) |
+| bootloader | GRUB | [limine](https://limine-bootloader.org/), [oslo](https://github.com/iglunix/oslo), [yaub](https://github.com/kukrimate/yaub/) |
+| awk implementation | gawk | [mawk](https://invisible-island.net/mawk/), [one true awk](https://github.com/onetrueawk/awk), [wak](https://github.com/raygard/wak) |
+| Loginng system | systemd-journald | [sysklogd](https://github.com/troglobit/sysklogd) |
+| Internationalization system | GNU gettext | [gettext-tiny](https://github.com/sabotage-linux/gettext-tiny) | 
