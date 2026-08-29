@@ -40,7 +40,7 @@
 | POSIX yacc | bison | [byacc](https://invisible-island.net/byacc/) | 
 | POSIX utilities | GNU coreutils | [Toybox](https://github.com/landley/toybox), [Busybox](https://www.busybox.net/),  [Chimerautils](https://github.com/chimera-linux/chimerautils), [plan9port](https://github.com/9fans/plan9port) | 
 | C/C++ compiler | gcc | clang, [qbe](https://c9x.me/compile/) | 
-| Compression library | zlib | [zlib-ng](https://github.com/zlib-ng/zlib-ng) | 
+| Compression library | zlib | [miniz](https://github.com/richgel999/miniz), [zlib-ng](https://github.com/zlib-ng/zlib-ng) | 
 | POSIX Make implementation | gmake | [bmake](https://www.crufty.net/help/sjg/bmake.html), [kati](https://github.com/google/kati), [shinobi](https://srcdump.net/shrub/shinobi/) | 
 | Ninja build implementation | ninja | [samurai](https://github.com/michaelforney/samurai) | 
 | M4 macroprocessor | GNU M4 | [OpenBSD M4](https://github.com/iglunix/om4) | 
