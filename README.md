@@ -45,11 +45,11 @@
 | Ninja build implementation | ninja | [samurai](https://github.com/michaelforney/samurai) | 
 | M4 macroprocessor | GNU M4 | [OpenBSD M4](https://github.com/iglunix/om4) | 
 | Curses implementation | ncurses | [netbsd-curses](https://github.com/sabotage-linux/netbsd-curses) | 
-| Shell | bash | [mksh](https://github.com/MirBSD/mksh), [oksh](https://github.com/ibara/oksh), [yash]() | 
+| Shell | bash | [mksh](https://github.com/MirBSD/mksh), [oksh](https://github.com/ibara/oksh), [yash](https://github.com/magicant/yash) | 
 | Pluggable Authentication Modules | Linux PAM | [OpenPAM](https://git.des.dev/OpenPAM/OpenPAM) | 
 | Privilege escalation | sudo | [OpenDoas](https://github.com/Duncaen/OpenDoas), [ssu](https://github.com/illiliti/ssu) | 
 | Package configuration tool | pkg-config | [librarian](https://codeberg.org/maandree/librarian), [pkgconf](https://github.com/pkgconf/pkgconf), [u-config](https://github.com/skeeto/u-config) | 
-| Make an ext4 file system | e2fsprogs | make\_ext4fs | 
+| Make an ext4 file system | e2fsprogs | [make_ext4fs](https://github.com/iglunix/make_ext4fs) | 
 | Manual | man-db | [mandoc](https://mandoc.bsd.lv/) | 
 | Job Scheduling | Cron | [Snooze](https://github.com/leahneukirchen/snooze), [dcron](https://github.com/ptchinster/dcron) |
 | Device handling, firmware loading | systemd-udev, udevd | mdevd, [libudev-zero](https://github.com/illiliti/libudev-zero) | 
