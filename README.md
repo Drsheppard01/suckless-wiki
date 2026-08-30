@@ -52,7 +52,7 @@
 | Make an ext4 file system | e2fsprogs | [make_ext4fs](https://github.com/iglunix/make_ext4fs) | 
 | Manual | man-db | [mandoc](https://mandoc.bsd.lv/) | 
 | Job Scheduling | Cron | [Snooze](https://github.com/leahneukirchen/snooze), [dcron](https://github.com/ptchinster/dcron) |
-| Device handling, firmware loading | systemd-udev, udevd | mdevd, [libudev-zero](https://github.com/illiliti/libudev-zero) | 
+| Device handling, firmware loading | systemd-udev, udevd | [mdevd](https://github.com/skarnet/mdevd), [libudev-zero](https://github.com/illiliti/libudev-zero) | 
 | Generic shared library support script | libtool | [slibtool](https://github.com/midipix-project/slibtool) | 
 | A tool for generating text-scanning programs | lex | [flex](https://github.com/westes/flex), [reflex](https://invisible-island.net/reflex/) |
 | Build system | Meson | [Muon](https://muon.build/) | 
