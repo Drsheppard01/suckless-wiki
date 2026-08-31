@@ -3,7 +3,8 @@
 
 1. [Finit](https://github.com/troglobit/finit)
 2. [Nitro](https://github.com/leahneukirchen/nitro)
-3. [Shinit](https://github.com/cemkeylan/shinit)
+3. [Runit](https://github.com/g-pape/runit/)
+4. [Shinit](https://github.com/cemkeylan/shinit)
    
 
 ## Notifications
@@ -19,14 +20,13 @@
 ## Wayland compositors
 
 1. [dwc](https://git.sr.ht/~corg/DWC) - dynamic
-2. [dwl](https://github.com/djpohly/dwl) - tiling
-3. [hevel](https://git.sr.ht/~dlm/hevel) - floating, scrollable
-4. [howl](https://git.sr.ht/~wf/howl) - tiling
-5. [klatka](https://git.sr.ht/~dlm/klatka) - kiosk-style
-6. [neuwm](https://git.sr.ht/~pfr/neuwm) - floating
-7. [slgro](https://git.ouppyawa.xyz/0uppy/slgro/) - floating, keyboard-driven
-8. [tohu](https://git.sr.ht/~shrub900/tohu) - floating
-9. [wsxwm](https://git.sr.ht/~uint/wsxwm) - tiling
+2. [hevel](https://git.sr.ht/~dlm/hevel) - floating, scrollable
+3. [howl](https://git.sr.ht/~wf/howl) - tiling
+4. [klatka](https://git.sr.ht/~dlm/klatka) - kiosk-style
+5. [neuwm](https://git.sr.ht/~pfr/neuwm) - floating
+6. [slgro](https://git.ouppyawa.xyz/0uppy/slgro/) - floating, keyboard-driven
+7. [tohu](https://git.sr.ht/~shrub900/tohu) - floating
+8. [wsxwm](https://git.sr.ht/~uint/wsxwm) - tiling
 
 ## Other tools
 
@@ -39,9 +39,9 @@
 | Compiler builtins | libgcc | compiler-rt | 
 | POSIX yacc | bison | [byacc](https://invisible-island.net/byacc/) | 
 | POSIX utilities | GNU coreutils | [Toybox](https://github.com/landley/toybox), [Busybox](https://www.busybox.net/),  [Chimerautils](https://github.com/chimera-linux/chimerautils), [plan9port](https://github.com/9fans/plan9port) | 
-| C/C++ compiler | gcc | clang, [qbe](https://c9x.me/compile/) | 
+| C/C++ compiler | gcc | [qbe](https://c9x.me/compile/) | 
 | Compression library | zlib | [miniz](https://github.com/richgel999/miniz), [zlib-ng](https://github.com/zlib-ng/zlib-ng) | 
-| POSIX Make implementation | gmake | [bmake](https://www.crufty.net/help/sjg/bmake.html), [kati](https://github.com/google/kati), [shinobi](https://srcdump.net/shrub/shinobi/) | 
+| POSIX Make implementation | gmake | [bmake](https://www.crufty.net/help/sjg/bmake.html),[shinobi](https://srcdump.net/shrub/shinobi/) | 
 | Ninja build implementation | ninja | [samurai](https://github.com/michaelforney/samurai) | 
 | M4 macroprocessor | GNU M4 | [OpenBSD M4](https://github.com/iglunix/om4) | 
 | Curses implementation | ncurses | [netbsd-curses](https://github.com/sabotage-linux/netbsd-curses) | 
