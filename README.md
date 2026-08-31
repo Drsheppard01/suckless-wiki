@@ -47,7 +47,7 @@
 | Curses implementation | ncurses | [netbsd-curses](https://github.com/sabotage-linux/netbsd-curses) | 
 | Shell | bash | [mksh](https://github.com/MirBSD/mksh), [oksh](https://github.com/ibara/oksh), [yash](https://github.com/magicant/yash) | 
 | Pluggable Authentication Modules | Linux PAM | [OpenPAM](https://git.des.dev/OpenPAM/OpenPAM) | 
-| Privilege escalation | sudo | [OpenDoas](https://github.com/Duncaen/OpenDoas), [ssu](https://github.com/illiliti/ssu) | 
+| Privilege escalation | sudo | [OpenDoas](https://github.com/Duncaen/OpenDoas), [doas](https://codeberg.org/thejessesmith/doas), [ssu](https://github.com/illiliti/ssu) |
 | Package configuration tool | pkg-config | [librarian](https://codeberg.org/maandree/librarian), [pkgconf](https://github.com/pkgconf/pkgconf), [u-config](https://github.com/skeeto/u-config) | 
 | Make an ext4 file system | e2fsprogs | [make_ext4fs](https://github.com/iglunix/make_ext4fs) | 
 | Manual | man-db | [mandoc](https://mandoc.bsd.lv/) | 
